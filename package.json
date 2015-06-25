@@ -1,0 +1,24 @@
+{
+  "name": "UsersRest",
+  "version": "0.0.0",
+  "description": "Application that gives users information using ReST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hpvdc/UsersRest.git"
+  },
+  "author": "Hugo Passo <hugo.passo@findhit.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/hpvdc/UsersRest/issues"
+  },
+  "dependencies": {
+    "restify": "~3.0.3",
+    "mongodb": "~2.0.35",
+    "monk": "~1.0.1"
+  }
+}
