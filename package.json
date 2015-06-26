@@ -19,6 +19,7 @@
   "dependencies": {
     "restify": "~3.0.3",
     "mongodb": "~2.0.35",
-    "monk": "~1.0.1"
+    "monk": "~1.0.1",
+    "mongojs": "~1.0.1"
   }
 }
